@@ -13,9 +13,7 @@ import java.util.List;
  */
 public interface GankContract {
 
-     interface View extends BaseViewI<List<GankItemBean>>{
-
-    };
+     interface View extends BaseViewI<List<GankItemBean>>{};
 
 
     interface Presenter{
